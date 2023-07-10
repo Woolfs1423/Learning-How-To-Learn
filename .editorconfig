@@ -1,0 +1,24 @@
+# http://editorconfig.org
+
+# A special property that should be specified at the top of the file outside
+# of any sections.
+root = true # Set to true to stop .editor config file search on current file
+[*]
+
+# Indentation style
+indent_style = space # Possible values - tab, space
+
+# Indentation size in single-spaced characters
+indent_size = 2 # Possible values - an integer, tab
+
+# Line ending file format
+end_of_line = lf # Possible values - lf, crlf, cr
+
+# File character encoding
+charset = utf-8 # Possible values - latin1, utf-8, utf-16be, utf-16le
+
+# Denotes whether to trim whitespace at the end of lines
+trim_trailing_whitespace = true # Possible values - true, false
+
+# Denotes whether file should end with a newline
+insert_final_newline = true # Possible values - true, false
