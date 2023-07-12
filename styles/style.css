@@ -4,7 +4,25 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
+/**logo**/
+.logo_place_header {
+  background-image: url("images/logo_place_header.png");
+  background-repeat: no-repeat;
+  z-index: 2;
+  position: absolute;
+  background-size: 32px 143px;
+  top: 30px;
+  left: 64px;
+}
+.logo_place_footer{
+  background-image: url("images/.logo_place_footer.png");
+  background-repeat: no-repeat;
+  background-size: 32px 143px;
+}
+
 /**header**/
+
 .header {
   min-height: 600px;
   max-height: 756px;
@@ -13,6 +31,7 @@
   margin: auto;
   background-color:#f2f2f2 ;
 }
+
 .header__title{
   line-height: 96px;
   width: 730px;
@@ -20,7 +39,7 @@
   font-weight: 600;
   z-index: 2;
   margin-left: 64px;
-  margin-top: 146px; ;
+  margin-top: 146px;
 }
 .header__subtitle{
   line-height: 25px;
@@ -179,19 +198,21 @@
 /**footer**/
 .footer{
   margin: 0;
-  padding-bottom: 40px;
+  padding: 0;
   background-color: #1f1f1f;
   color: #f2f2f2;
 
+}
+.footer__content{
+  max-width: 1100px;
+  margin: 0;
+  padding: 60px 0 40px 0;
+  align-items: center;
 }
 .footer__author{
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  width: 90%;
-  margin: 0;
-  padding-bottom: 18px;
-  padding-top: 18px;
   margin: 0 auto;
-
+  padding: 18px 0;
 }
