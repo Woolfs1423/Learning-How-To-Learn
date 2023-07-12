@@ -14,6 +14,8 @@
   background-size: 32px 143px;
   top: 30px;
   left: 64px;
+  width: 143px;
+  height: 32px;
 }
 .logo_place_footer{
   /**background-image: url("images/.logo_place_footer.png");
@@ -125,6 +127,11 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+}
+/**Oakley**/
+.Oakley{
+  padding: 100px 0;
+  background-color: #f2f2f2;
 }
 /**kaufman**/
 .kaufman{
