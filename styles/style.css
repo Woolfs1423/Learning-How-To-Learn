@@ -5,25 +5,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/**logo**/
-.logo_place_header {
-  background-image: url("images/logo_place_header.png");
-  background-repeat: no-repeat;
-  z-index: 2;
-  position: absolute;
-  background-size: 32px 143px;
-  top: 30px;
-  left: 64px;
-  width: 143px;
-  height: 32px;
-}
-.logo_place_footer{
-  /**background-image: url("images/.logo_place_footer.png");
-  background-repeat: no-repeat;
-  background-size: 32px 143px;**/
-  width: 143px;
-  height: 32px;
-}
+
 
 /**header**/
 
@@ -90,7 +72,7 @@
   position: relative;
   align-items: center;
   overflow: hidden;
-  padding: 0;
+  margin: 0;
   padding: 100px 0;
 }
 .two-columns{
@@ -132,6 +114,7 @@
 .Oakley{
   padding: 100px 0;
   background-color: #f2f2f2;
+
 }
 /**kaufman**/
 .kaufman{
