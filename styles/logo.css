@@ -1,10 +1,11 @@
 /**logo**/
 .logo_place_header {
-  background-image: url("images/logo_place_header.png");
+ /** background-image: url("images/logo_place_header.png");
   background-repeat: no-repeat;
   z-index: 2;
-  position: absolute;
   background-size: 32px 143px;
+  **/
+  position: absolute;
   top: 30px;
   left: 64px;
   width: 143px;
