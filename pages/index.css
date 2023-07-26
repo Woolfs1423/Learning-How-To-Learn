@@ -8,8 +8,9 @@
 @import url(../Blocks/header/__title.css);
 @import url(../Blocks/header/header.css);
 
-@import url(../Blocks/logo/_place_header);
-@import url(../Blocks/logo/_place_footer);
+@import url(../Blocks/logo/logo.css);
+@import url(../Blocks/logo/logo_place_footer.css);
+@import url(../Blocks/logo/logo_place_header.css);
 
 @import url(../Blocks/description/description.css);
 @import url(../Blocks/description/two-columns.css);
