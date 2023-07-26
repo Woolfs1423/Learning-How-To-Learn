@@ -1,0 +1,10 @@
+.table {
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 80px;
+  margin: 0;
+  padding: 0;
+  max-width: 1080px;
+}

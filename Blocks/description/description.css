@@ -1,0 +1,9 @@
+.description {
+  background-color: #fff;
+  display: flex;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 100px 0;
+}

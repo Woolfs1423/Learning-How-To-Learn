@@ -1,6 +1,54 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+
+@import url(../Blocks/Page/page.css);
+
+@import url(../Blocks/header/__link.css);
+@import url(../Blocks/header/__main-illustration.css);
+@import url(../Blocks/header/__square-pic.css);
+@import url(../Blocks/header/__subtitle.css);
+@import url(../Blocks/header/__title.css);
+@import url(../Blocks/header/header.css);
+
+@import url(../Blocks/logo/_place_header);
+@import url(../Blocks/logo/_place_footer);
+
+@import url(../Blocks/description/description.css);
+@import url(../Blocks/description/two-columns.css);
+@import url(../Blocks/description/__brief.css);
+@import url(../Blocks/description/__main-text.css);
+@import url(../Blocks/description/__paragraph.css);
+@import url(../Blocks/description/__span-accent.css);
+
+@import url(../Blocks/feynman/feynman.css);
+@import url(../Blocks/feynman/__title.css);
+@import url(../Blocks/feynman/__subtitle.css);
+@import url(../Blocks/feynman/__link.css);
+
+@import url(../Blocks/kaufman/kaufman.css);
+@import url(../Blocks/kaufman/__triangle.css);
+@import url(../Blocks/kaufman/section-title.css);
+@import url(../Blocks/kaufman/section-subtitle.css);
+@import url(../Blocks/kaufman/table.css);
+@import url(../Blocks/kaufman/__cell.css);
+@import url(../Blocks/kaufman/__heading.css);
+@import url(../Blocks/kaufman/__text.css);
+
+@import url(../Blocks/Resources/__image.css);
+@import url(../Blocks/Resources/__link.css);
+@import url(../Blocks/Resources/logo-zone.css);
+@import url(../Blocks/Resources/resources.css);
+@import url(../Blocks/Resources/section-subtitle.css);
+@import url(../Blocks/Resources/section-title.css);
+@import url(../Blocks/Resources/resources__link.css);
+
+@import url(../Blocks/Techniques/techniques.css);
+@import url(../Blocks/Techniques/section-title.css);
+@import url(../Blocks/Techniques/cards.css);
+@import url(../Blocks/Techniques/__image.css);
+@import url(../Blocks/Techniques/__title.css);
+@import url(../Blocks/Techniques/__description.css);
+
+@import url(../Blocks/rotation/rotation.css);
+
+@import url(../Blocks/footer/footer.css);
+@import url(../Blocks/footer/__author.css);
+@import url(../Blocks/footer/__content.css);
